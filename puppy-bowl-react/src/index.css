@@ -7,11 +7,11 @@
 .single-player-card {
   flex-basis: 200px;
   flex-grow: 1;
-  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 10px 20px rgba(0, 0, 0, 0.2);
   margin: 5px 10px;
   padding: 10px;
   border-radius: 10px;
-
+  background: rgb(245, 242, 242);
   display: flex;
   flex-direction: column;
 }
@@ -47,11 +47,55 @@
   margin: 5px 10px;
   padding: 10px;
   border-radius: 10px;
-
+  background: rgb(245, 242, 242);
   display: flex;
   flex-direction: column;
 }
 
 .single-player-view > p {
   margin: 10px 0px 0px 0px;
+}
+
+.heading-container{
+  background-color: rgb(255, 147, 70);
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#navbar{
+display: flex;
+justify-content: space-evenly;
+}
+
+#navbar a{
+  background-color:rgb(245, 242, 242);
+  padding: 5px 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+#heading{
+  font-size: 3rem;
+  padding:0px;
+}
+
+.forms{
+margin-bottom:100px;
+}
+
+#new-puppy-form{
+display:flex;
+flex-direction:column;
+padding:10px 100px;
+gap:1rem;
+}
+#new-puppy-form label{
+  font-weight: bold;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 2rem;
+  text-decoration: underline;
+  margin:0px;
+  padding:0px;
 }
