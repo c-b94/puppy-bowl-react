@@ -14,7 +14,7 @@ const [breed, setBreed] = useState("");
         <form id="new-puppy-form" onSubmit={async (e)=>{
             e.preventDefault();
             const newDog = await addNewDog(name,breed)
-            console.log("testing newDog",newDog)
+            
         }}>
             <label htmlFor="">name</label>
             <input type="text" placeholder="ex:poofer" onChange={(e)=>{setName(e.target.value);}}/>
